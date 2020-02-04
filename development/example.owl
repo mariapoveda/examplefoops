@@ -8,7 +8,42 @@
 
 <https://w3id.org/example> rdf:type owl:Ontology ;
                             owl:versionIRI <https://w3id.org/example/1.0.0> ;
-                            rdfs:comment "Test vocabulary example"@en .
+                            <http://purl.org/dc/elements/1.1/created> "February 4th, 2020"@en ,
+                                                                      "The example ontology"@en ;
+                            <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by/2.0/> ;
+                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "ex"@en ;
+                            <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/example"@en ;
+                            <http://schema.org/author> "Daniel Garijo"@en ;
+                            rdfs:comment "Test vocabulary example"@en ;
+                            owl:versionInfo "1.0.0"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/license
+<http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/author
+<http://schema.org/author> rdf:type owl:AnnotationProperty .
+
 
 #################################################################
 #    Object Properties
