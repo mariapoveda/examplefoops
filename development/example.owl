@@ -10,10 +10,13 @@
                             owl:versionIRI <https://w3id.org/example/1.0.0> ;
                             <http://purl.org/dc/elements/1.1/created> "February 4th, 2020"@en ,
                                                                       "The example ontology"@en ;
+                            <http://purl.org/dc/elements/1.1/description> "Some institution"@en ,
+                                                                          "This is an example ontology to illustrate some of the annotations thar shoud beincluded"@en ;
                             <http://purl.org/dc/elements/1.1/license> <http://creativecommons.org/licenses/by/2.0/> ;
                             <http://purl.org/vocab/vann/preferredNamespacePrefix> "ex"@en ;
                             <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/example"@en ;
                             <http://schema.org/author> "Daniel Garijo"@en ;
+                            <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.0."@en ;
                             rdfs:comment "Test vocabulary example"@en ;
                             owl:versionInfo "1.0.0"@en .
 
@@ -25,8 +28,16 @@
 <http://purl.org/dc/elements/1.1/created> rdf:type owl:AnnotationProperty .
 
 
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
 ###  http://purl.org/dc/elements/1.1/license
 <http://purl.org/dc/elements/1.1/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/elements/1.1/title
@@ -43,6 +54,10 @@
 
 ###  http://schema.org/author
 <http://schema.org/author> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/citation
+<http://schema.org/citation> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
