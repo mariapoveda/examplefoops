@@ -1,0 +1,191 @@
+<h2 id="crossreference" class="list">Cross reference for The example ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by The example ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#ExampleClassA" title="https://w3id.org/example#ExampleClassA">Example Class A</a>
+      </li>
+      <li>
+         <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+      </li>
+      <li>
+         <a href="#ExampleClassC" title="https://w3id.org/example#ExampleClassC">Example Class C</a>
+      </li>
+   </ul>
+   <div class="entity" id="ExampleClassA">
+      <h3>Example Class A<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#ExampleClassA</p>
+      <div class="comment">
+         <span class="markdown">An  example class for identifying resources of type A</span>
+      </div>
+      <dl>
+         <dt>Term rationale</dt>
+         <dd>The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here.</dd>
+      </dl>
+      <dl>
+         <dt>Example</dt>
+         <dd>
+            <pre>An example illustrating how to use Class A</pre>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ExampleClassB">
+      <h3>Example Class B<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#ExampleClassB</p>
+      <div class="comment">
+         <span class="markdown">An example class for identifying reosurces of type B</span>
+      </div>
+      <dl>
+         <dt>Example</dt>
+         <dd>
+            <pre>An example showing how to use Class B</pre>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#exampleDataProperty1" title="https://w3id.org/example#exampleDataProperty1">example data property 1</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ExampleClassC">
+      <h3>Example Class C<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#ExampleClassC</p>
+      <div class="comment">
+         <span class="markdown">Example Class C added in version 1.0.1 of the ontology</span>
+      </div>
+      <dl>
+         <dt>Example</dt>
+         <dd>
+            <pre>Example showing how to use Example Class C</pre>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
+      </li>
+      <li>
+         <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
+      </li>
+   </ul>
+   <div class="entity" id="exampleProperty1">
+      <h3>example property 1<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#exampleProperty1</p>
+      <div class="comment">
+         <span class="markdown">This property links instances from ExampleClassB to ExampleClassB</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="exampleProperty2">
+      <h3>example property 2<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#exampleProperty2</p>
+      <div class="comment">
+         <span class="markdown">This property links instances from ExampleClassA to ExampleClassB</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ExampleClassA" title="https://w3id.org/example#ExampleClassA">Example Class A</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#exampleDataProperty1" title="https://w3id.org/example#exampleDataProperty1">example data property 1</a>
+      </li>
+   </ul>
+   <div class="entity" id="exampleDataProperty1">
+      <h3>example data property 1<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#exampleDataProperty1</p>
+      <div class="comment">
+         <span class="markdown">An data property to describe instances of Example Class B with literals</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

@@ -1,0 +1,134 @@
+<https://w3id.org/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/example> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/example/1.0.1> .
+<https://w3id.org/example> <http://purl.org/dc/elements/1.1/abstract> "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"@en .
+<https://w3id.org/example> <http://purl.org/dc/elements/1.1/description> "This is an example ontology to illustrate some of the annotations that shoud be included"@en .
+<https://w3id.org/example> <http://purl.org/dc/elements/1.1/publisher> "Institution"@en .
+<https://w3id.org/example> <http://purl.org/dc/elements/1.1/title> "The example ontology"@en .
+<https://w3id.org/example> <http://purl.org/dc/terms/created> "February 4th, 2020"@en .
+<https://w3id.org/example> <http://purl.org/dc/terms/creator> "Daniel Garijo"@en .
+<https://w3id.org/example> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
+<https://w3id.org/example> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ex"@en .
+<https://w3id.org/example> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/example" .
+<https://w3id.org/example> <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.1."@en .
+<https://w3id.org/example> <http://www.w3.org/2000/01/rdf-schema#comment> "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"@en .
+<https://w3id.org/example> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <https://w3id.org/example/1.0.0> .
+<https://w3id.org/example> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/created
+<http://purl.org/dc/elements/1.1/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/example
+<http://purl.org/vocab/vann/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/author
+<http://schema.org/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/citation
+<http://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.linkedmodel.org/schema/vaem#rationale
+<http://www.linkedmodel.org/schema/vaem#rationale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/example#exampleProperty1
+<https://w3id.org/example#exampleProperty1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/example#exampleProperty1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/example#ExampleClassB> .
+<https://w3id.org/example#exampleProperty1> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/example#ExampleClassB> .
+<https://w3id.org/example#exampleProperty1> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links instances from ExampleClassB to ExampleClassB"@en .
+<https://w3id.org/example#exampleProperty1> <http://www.w3.org/2000/01/rdf-schema#label> "example property 1"@en .
+# 
+# https://w3id.org/example#exampleProperty2
+<https://w3id.org/example#exampleProperty2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/example#exampleProperty2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/example#ExampleClassA> .
+<https://w3id.org/example#exampleProperty2> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/example#ExampleClassB> .
+<https://w3id.org/example#exampleProperty2> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links instances from ExampleClassA to ExampleClassB"@en .
+<https://w3id.org/example#exampleProperty2> <http://www.w3.org/2000/01/rdf-schema#label> "example property 2"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/example#exampleDataProperty1
+<https://w3id.org/example#exampleDataProperty1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/example#exampleDataProperty1> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/example#ExampleClassB> .
+<https://w3id.org/example#exampleDataProperty1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/example#exampleDataProperty1> <http://www.w3.org/2000/01/rdf-schema#comment> "An data property to describe instances of Example Class B with literals"@en .
+<https://w3id.org/example#exampleDataProperty1> <http://www.w3.org/2000/01/rdf-schema#label> "example data property 1"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/example#ExampleClassA
+<https://w3id.org/example#ExampleClassA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/example#ExampleClassA> <http://purl.org/vocab/vann/example> "An example illustrating how to use Class A"@en .
+<https://w3id.org/example#ExampleClassA> <http://www.linkedmodel.org/schema/vaem#rationale> "The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here."@en .
+<https://w3id.org/example#ExampleClassA> <http://www.w3.org/2000/01/rdf-schema#comment> "An  example class for identifying resources of type A"@en .
+<https://w3id.org/example#ExampleClassA> <http://www.w3.org/2000/01/rdf-schema#label> "Example Class A"@en .
+# 
+# https://w3id.org/example#ExampleClassB
+<https://w3id.org/example#ExampleClassB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/example#ExampleClassB> <http://purl.org/vocab/vann/example> "An example showing how to use Class B"@en .
+<https://w3id.org/example#ExampleClassB> <http://www.w3.org/2000/01/rdf-schema#comment> "An example class for identifying reosurces of type B"@en .
+<https://w3id.org/example#ExampleClassB> <http://www.w3.org/2000/01/rdf-schema#label> "Example Class B"@en .
+# 
+# https://w3id.org/example#ExampleClassC
+<https://w3id.org/example#ExampleClassC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/example#ExampleClassC> <http://purl.org/vocab/vann/example> "Example showing how to use Example Class C"@en .
+<https://w3id.org/example#ExampleClassC> <http://www.w3.org/2000/01/rdf-schema#comment> "Example Class C added in version 1.0.1 of the ontology"@en .
+<https://w3id.org/example#ExampleClassC> <http://www.w3.org/2000/01/rdf-schema#label> "Example Class C"@en .
+# 
+# Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

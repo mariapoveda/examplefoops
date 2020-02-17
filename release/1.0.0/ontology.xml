@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/example#"
+     xml:base="https://w3id.org/example"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vaem="http://www.linkedmodel.org/schema/vaem#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="https://w3id.org/example">
+        <owl:versionIRI rdf:resource="https://w3id.org/example/1.0.0"/>
+        <dc:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles</dc:abstract>
+        <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that shoud be included</dc:description>
+        <dc:publisher xml:lang="en">Institution</dc:publisher>
+        <dc:title xml:lang="en">The example ontology</dc:title>
+        <terms:created xml:lang="en">February 4th, 2020</terms:created>
+        <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
+        <vann:preferredNamespacePrefix xml:lang="en">ex</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/example</vann:preferredNamespaceUri>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. The example ontogy 1.0.0.</schema:citation>
+        <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles</rdfs:comment>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/example"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://schema.org/author -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/author"/>
+    
+
+
+    <!-- http://schema.org/citation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://schema.org/citation"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#rationale -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.linkedmodel.org/schema/vaem#rationale"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/example#exampleProperty1 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/example#exampleProperty1">
+        <rdfs:domain rdf:resource="https://w3id.org/example#ExampleClassB"/>
+        <rdfs:range rdf:resource="https://w3id.org/example#ExampleClassB"/>
+        <rdfs:comment xml:lang="en">This property links instances from ExampleClassB to ExampleClassB</rdfs:comment>
+        <rdfs:label xml:lang="en">example property 1</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/example#exampleProperty2 -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/example#exampleProperty2">
+        <rdfs:domain rdf:resource="https://w3id.org/example#ExampleClassA"/>
+        <rdfs:range rdf:resource="https://w3id.org/example#ExampleClassB"/>
+        <rdfs:comment xml:lang="en">This property links instances from ExampleClassA to ExampleClassB</rdfs:comment>
+        <rdfs:label xml:lang="en">example property 2</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/example#exampleDataProperty1 -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/example#exampleDataProperty1">
+        <rdfs:domain rdf:resource="https://w3id.org/example#ExampleClassB"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">An data property to describe instances of Example Class B with literals</rdfs:comment>
+        <rdfs:label xml:lang="en">example data property 1</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/example#ExampleClassA -->
+
+
+    <owl:Class rdf:about="https://w3id.org/example#ExampleClassA">
+        <vann:example xml:lang="en">An example illustrating how to use Class A</vann:example>
+        <vaem:rationale xml:lang="en">The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here.</vaem:rationale>
+        <rdfs:comment xml:lang="en">An  example class for identifying resources of type A</rdfs:comment>
+        <rdfs:label xml:lang="en">Example Class A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/example#ExampleClassB -->
+
+
+    <owl:Class rdf:about="https://w3id.org/example#ExampleClassB">
+        <vann:example xml:lang="en">An example showing how to use Class B</vann:example>
+        <rdfs:comment xml:lang="en">An example class for identifying reosurces of type B</rdfs:comment>
+        <rdfs:label xml:lang="en">Example Class B</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+

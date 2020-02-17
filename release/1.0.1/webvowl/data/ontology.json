@@ -1,0 +1,228 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/example" ],
+    "title" : {
+      "en" : "The example ontology"
+    },
+    "iri" : "https://w3id.org/example",
+    "version" : "1.0.1",
+    "author" : [ "Daniel Garijo" ],
+    "description" : {
+      "en" : "This is an example ontology to illustrate some of the annotations that shoud be included"
+    },
+    "comments" : {
+      "en" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"
+    },
+    "other" : {
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "http://creativecommons.org/licenses/by/2.0/",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "en",
+        "value" : "Daniel Garijo",
+        "type" : "label"
+      } ],
+      "citation" : [ {
+        "identifier" : "citation",
+        "language" : "en",
+        "value" : "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.1.",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "en",
+        "value" : "February 4th, 2020",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "en",
+        "value" : "ex",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "en",
+        "value" : "Institution",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0.1",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/example",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "The example ontology",
+        "type" : "label"
+      } ],
+      "backwardCompatibleWith" : [ {
+        "identifier" : "backwardCompatibleWith",
+        "language" : "undefined",
+        "value" : "https://w3id.org/example/1.0.0",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/example#ExampleClassC",
+    "baseIri" : "https://w3id.org/example",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Example showing how to use Example Class C",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ExampleClassC",
+      "en" : "Example Class C"
+    },
+    "comment" : {
+      "en" : "Example Class C added in version 1.0.1 of the ontology"
+    },
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/example#ExampleClassB",
+    "baseIri" : "https://w3id.org/example",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An example showing how to use Class B",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ExampleClassB",
+      "en" : "Example Class B"
+    },
+    "comment" : {
+      "en" : "An example class for identifying reosurces of type B"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/example#ExampleClassA",
+    "baseIri" : "https://w3id.org/example",
+    "instances" : 0,
+    "annotations" : {
+      "rationale" : [ {
+        "identifier" : "rationale",
+        "language" : "en",
+        "value" : "The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "An example illustrating how to use Class A",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ExampleClassA",
+      "en" : "Example Class A"
+    },
+    "comment" : {
+      "en" : "An  example class for identifying resources of type A"
+    },
+    "id" : "4"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/example#exampleDataProperty1",
+    "baseIri" : "https://w3id.org/example",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "exampleDataProperty1",
+      "en" : "example data property 1"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "An data property to describe instances of Example Class B with literals"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/example#exampleProperty2",
+    "baseIri" : "https://w3id.org/example",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "exampleProperty2",
+      "en" : "example property 2"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "This property links instances from ExampleClassA to ExampleClassB"
+    },
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/example#exampleProperty1",
+    "baseIri" : "https://w3id.org/example",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "exampleProperty1",
+      "en" : "example property 1"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "This property links instances from ExampleClassB to ExampleClassB"
+    },
+    "attributes" : [ "object" ],
+    "id" : "6"
+  } ]
+}
