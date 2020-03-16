@@ -14,7 +14,7 @@
                             <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> ;
                             <http://purl.org/dc/elements/1.1/publisher> "Institution"@en ;
                             <http://purl.org/dc/elements/1.1/title> "The example ontology"@en ;
-                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "ex"@en ;
+                            <http://purl.org/vocab/vann/preferredNamespacePrefix> "exo"@en ;
                             <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/example" ;
                             <http://purl.org/dc/terms/creator> "Daniel Garijo"@en ;
                             <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.1."@en ;

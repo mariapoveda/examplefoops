@@ -20,7 +20,7 @@
         <terms:created xml:lang="en">February 4th, 2020</terms:created>
         <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
-        <vann:preferredNamespacePrefix xml:lang="en">ex</vann:preferredNamespacePrefix>
+        <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/example</vann:preferredNamespaceUri>
         <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. The example ontogy 1.0.0.</schema:citation>
         <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles</rdfs:comment>

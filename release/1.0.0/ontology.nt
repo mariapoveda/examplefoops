@@ -7,7 +7,7 @@
 <https://w3id.org/example> <http://purl.org/dc/terms/created> "February 4th, 2020"@en .
 <https://w3id.org/example> <http://purl.org/dc/terms/creator> "Daniel Garijo"@en .
 <https://w3id.org/example> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
-<https://w3id.org/example> <http://purl.org/vocab/vann/preferredNamespacePrefix> "ex"@en .
+<https://w3id.org/example> <http://purl.org/vocab/vann/preferredNamespacePrefix> "exo"@en .
 <https://w3id.org/example> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/example" .
 <https://w3id.org/example> <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.0."@en .
 <https://w3id.org/example> <http://www.w3.org/2000/01/rdf-schema#comment> "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"@en .
