@@ -13,17 +13,18 @@
      xmlns:schema="http://schema.org/">
     <owl:Ontology rdf:about="https://w3id.org/example">
         <owl:versionIRI rdf:resource="https://w3id.org/example/1.0.1"/>
-        <dc:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles</dc:abstract>
-        <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that shoud be included</dc:description>
+        <dc:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</dc:abstract>
+        <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:publisher xml:lang="en">Institution</dc:publisher>
         <dc:title xml:lang="en">The example ontology</dc:title>
         <terms:created xml:lang="en">February 4th, 2020</terms:created>
         <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
+        <terms:creator xml:lang="en">Maria Poveda-Villalon</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/example</vann:preferredNamespaceUri>
-        <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. The example ontogy 1.0.1.</schema:citation>
-        <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles</rdfs:comment>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The example ontology 1.0.1.</schema:citation>
+        <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</rdfs:comment>
         <owl:backwardCompatibleWith rdf:resource="https://w3id.org/example/1.0.0"/>
         <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
     </owl:Ontology>

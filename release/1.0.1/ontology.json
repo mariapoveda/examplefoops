@@ -45,7 +45,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/abstract" : [ {
     "@language" : "en",
-    "@value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"
+    "@value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles"
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@language" : "en",
@@ -67,6 +67,10 @@
     "@language" : "en",
     "@value" : "Daniel Garijo"
   } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Maria Poveda-Villalon"
+  } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "http://creativecommons.org/licenses/by/2.0/"
   } ],
@@ -79,11 +83,11 @@
   } ],
   "http://schema.org/citation" : [ {
     "@language" : "en",
-    "@value" : "Cite this vocabulary as: Garijo, D. The example ontogy 1.0.1."
+    "@value" : "Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The example ontology 1.0.1."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following thr FAIR principles"
+    "@value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles"
   } ],
   "http://www.w3.org/2002/07/owl#backwardCompatibleWith" : [ {
     "@id" : "https://w3id.org/example/1.0.0"
