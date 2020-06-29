@@ -4,67 +4,66 @@ This section provides details for each class and property defined by The example
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
-         <a href="#ExampleClassA" title="https://w3id.org/example#ExampleClassA">Example Class A</a>
+         <a href="#Organization" title="https://w3id.org/example#Organization">Organization</a>
       </li>
       <li>
-         <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+         <a href="#Researcher" title="https://w3id.org/example#Researcher">Researcher</a>
       </li>
    </ul>
-   <div class="entity" id="ExampleClassA">
-      <h3>Example Class A<sup class="type-c" title="class">c</sup>
+   <div class="entity" id="Organization">
+      <h3>Organization<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/example#ExampleClassA</p>
+         <strong>IRI:</strong> https://w3id.org/example#Organization</p>
       <div class="comment">
-         <span class="markdown">An  example class for identifying resources of type A</span>
+         <span class="markdown">An organized body of people with a particular purpose, especially a business, society, association, etc.</span>
       </div>
-      <dl>
-         <dt>Term rationale</dt>
-         <dd>The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here.</dd>
-      </dl>
       <dl>
          <dt>Example</dt>
          <dd>
-            <pre>An example illustrating how to use Class A</pre>
+            <pre>University of Southern California</pre>
          </dd>
       </dl>
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="ExampleClassB">
-      <h3>Example Class B<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/example#ExampleClassB</p>
-      <div class="comment">
-         <span class="markdown">An example class for identifying reosurces of type B</span>
-      </div>
-      <dl>
-         <dt>Example</dt>
-         <dd>
-            <pre>An example showing how to use Class B</pre>
-         </dd>
-      </dl>
-      <dl class="description">
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#exampleDataProperty1" title="https://w3id.org/example#exampleDataProperty1">example data property 1</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
+            <a href="#foundedIn" title="https://w3id.org/example#foundedIn">founded in</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasMember" title="https://w3id.org/example#hasMember">has member</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
+            <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Researcher">
+      <h3>Researcher<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#Researcher</p>
+      <div class="comment">
+         <span class="markdown">A definition of your class. For example, A researcher is a person who publishes scientific papers, writes research proposals and mentors students</span>
+      </div>
+      <dl>
+         <dt>Term rationale</dt>
+         <dd>The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here. For example: The concept Researcher was added to the ontology to represent those authors of scientific publications that belong to a public institution.</dd>
+      </dl>
+      <dl>
+         <dt>Example</dt>
+         <dd>
+            <pre>An example using the Researcher class, e.g., Bob is a professor at the University of Southern California.</pre>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -73,57 +72,57 @@ This section provides details for each class and property defined by The example
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#exampleProperty1" title="https://w3id.org/example#exampleProperty1">example property 1</a>
+         <a href="#hasMember" title="https://w3id.org/example#hasMember">has member</a>
       </li>
       <li>
-         <a href="#exampleProperty2" title="https://w3id.org/example#exampleProperty2">example property 2</a>
+         <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
       </li>
    </ul>
-   <div class="entity" id="exampleProperty1">
-      <h3>example property 1<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="hasMember">
+      <h3>has member<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/example#exampleProperty1</p>
+         <strong>IRI:</strong> https://w3id.org/example#hasMember</p>
       <div class="comment">
-         <span class="markdown">This property links instances from ExampleClassB to ExampleClassB</span>
+         <span class="markdown">This example property indicates that an Organization has a Person as member</span>
       </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <a href="#Organization" title="https://w3id.org/example#Organization">Organization</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <span class="dotted" title="https://w3id.org/example#Person">person</span>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
    </div>
-   <div class="entity" id="exampleProperty2">
-      <h3>example property 2<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="partOf">
+      <h3>part of<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/example#exampleProperty2</p>
+         <strong>IRI:</strong> https://w3id.org/example#partOf</p>
       <div class="comment">
-         <span class="markdown">This property links instances from ExampleClassA to ExampleClassB</span>
+         <span class="markdown">This property links instances from Researcher to Organization</span>
       </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#ExampleClassA" title="https://w3id.org/example#ExampleClassA">Example Class A</a>
+               <a href="#Researcher" title="https://w3id.org/example#Researcher">Researcher</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <a href="#Organization" title="https://w3id.org/example#Organization">Organization</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -133,29 +132,29 @@ This section provides details for each class and property defined by The example
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#exampleDataProperty1" title="https://w3id.org/example#exampleDataProperty1">example data property 1</a>
+         <a href="#foundedIn" title="https://w3id.org/example#foundedIn">founded in</a>
       </li>
    </ul>
-   <div class="entity" id="exampleDataProperty1">
-      <h3>example data property 1<sup class="type-dp" title="data property">dp</sup>
+   <div class="entity" id="foundedIn">
+      <h3>founded in<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/example#exampleDataProperty1</p>
+         <strong>IRI:</strong> https://w3id.org/example#foundedIn</p>
       <div class="comment">
-         <span class="markdown">An data property to describe instances of Example Class B with literals</span>
+         <span class="markdown">Date when an organization was founded</span>
       </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#ExampleClassB" title="https://w3id.org/example#ExampleClassB">Example Class B</a>
+               <a href="#Organization" title="https://w3id.org/example#Organization">Organization</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#date">date</span>
             </dd>
          </dl>
       </div>
