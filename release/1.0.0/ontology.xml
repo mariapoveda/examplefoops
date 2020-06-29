@@ -175,8 +175,8 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/example#hasMember">
         <rdfs:domain rdf:resource="https://w3id.org/example#Organization"/>
-        <rdfs:range rdf:resource="https://w3id.org/example#Person"/>
-        <rdfs:comment xml:lang="en">This example property indicates that an Organization has a Person as member</rdfs:comment>
+        <rdfs:range rdf:resource="https://w3id.org/example#Researcher"/>
+        <rdfs:comment xml:lang="en">This example property indicates that an Organization has a Researcher as member</rdfs:comment>
         <rdfs:label xml:lang="en">has member</rdfs:label>
     </owl:ObjectProperty>
     
@@ -238,13 +238,6 @@
         <rdfs:comment xml:lang="en">An organized body of people with a particular purpose, especially a business, society, association, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- https://w3id.org/example#Person -->
-
-
-    <owl:Class rdf:about="https://w3id.org/example#Person"/>
     
 
 

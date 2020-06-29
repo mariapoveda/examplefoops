@@ -25,12 +25,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Maria Poveda-Villalon",
+        "value" : "Daniel Garijo",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Daniel Garijo",
+        "value" : "Maria Poveda-Villalon",
         "type" : "label"
       } ],
       "citation" : [ {
@@ -51,16 +51,16 @@
         "value" : "exo",
         "type" : "label"
       } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/example",
-        "type" : "label"
-      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "en",
         "value" : "1.0.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/example",
         "type" : "label"
       } ],
       "abstract" : [ {
@@ -79,27 +79,16 @@
   },
   "namespace" : [ ],
   "class" : [ {
-    "id" : "3",
-    "type" : "owl:Class"
-  }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "2",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "5",
+    "id" : "4",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/example#Person",
-    "baseIri" : "https://w3id.org/example",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Person"
-    },
-    "id" : "3"
-  }, {
     "iri" : "https://w3id.org/example#Organization",
     "baseIri" : "https://w3id.org/example",
     "instances" : 0,
@@ -151,16 +140,16 @@
     "comment" : {
       "en" : "A definition of your class. For example, A researcher is a person who publishes scientific papers, writes research proposals and mentors students"
     },
-    "id" : "5"
+    "id" : "4"
   } ],
   "property" : [ {
     "id" : "0",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "4",
+    "id" : "3",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "6",
+    "id" : "5",
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
@@ -185,25 +174,25 @@
       "IRI-based" : "partOf",
       "en" : "part of"
     },
-    "domain" : "5",
+    "domain" : "4",
     "comment" : {
       "en" : "This property links instances from Researcher to Organization"
     },
     "attributes" : [ "object" ],
-    "id" : "4"
+    "id" : "3"
   }, {
     "iri" : "https://w3id.org/example#hasMember",
     "baseIri" : "https://w3id.org/example",
-    "range" : "3",
+    "range" : "4",
     "label" : {
       "IRI-based" : "hasMember",
       "en" : "has member"
     },
     "domain" : "1",
     "comment" : {
-      "en" : "This example property indicates that an Organization has a Person as member"
+      "en" : "This example property indicates that an Organization has a Researcher as member"
     },
     "attributes" : [ "object" ],
-    "id" : "6"
+    "id" : "5"
   } ]
 }

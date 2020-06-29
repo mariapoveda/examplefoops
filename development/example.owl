@@ -82,8 +82,8 @@
 ###  https://w3id.org/example#hasMember
 :hasMember rdf:type owl:ObjectProperty ;
                   rdfs:domain :Organization ;
-                  rdfs:range :Person ;
-                  rdfs:comment "This example property indicates that an Organization has a Person as member"@en ;
+                  rdfs:range :Researcher ;
+                  rdfs:comment "This example property indicates that an Organization has a Researcher as member"@en ;
                   rdfs:label "has member"@en .
 
 

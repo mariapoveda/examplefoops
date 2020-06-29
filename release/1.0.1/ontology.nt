@@ -89,9 +89,8 @@
 # https://w3id.org/example#hasMember
 <https://w3id.org/example#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/example#Organization> .
-<https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/example#Person> .
-<https://w3id.org/example#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This example property indicates that an Organization has a Person as member"@en .
+<https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/example#Researcher> .
+<https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This example property indicates that an Organization has a Researcher as member"@en .
 <https://w3id.org/example#hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
 # 
 # https://w3id.org/example#hasMentor
@@ -138,8 +137,6 @@
 <https://w3id.org/example#Organization> <http://purl.org/vocab/vann/example> "University of Southern California"@en .
 <https://w3id.org/example#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organized body of people with a particular purpose, especially a business, society, association, etc."@en .
 <https://w3id.org/example#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
-# 
-# https://w3id.org/example#Person
 # 
 # https://w3id.org/example#Researcher
 <https://w3id.org/example#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

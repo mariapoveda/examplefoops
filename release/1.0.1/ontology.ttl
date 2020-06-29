@@ -98,8 +98,8 @@ xsd:date rdf:type rdfs:Datatype .
 ###  https://w3id.org/example#hasMember
 :hasMember rdf:type owl:ObjectProperty ;
            rdfs:domain :Organization ;
-           rdfs:range :Person ;
-           rdfs:comment "This example property indicates that an Organization has a Person as member"@en ;
+           rdfs:range :Researcher ;
+           rdfs:comment "This example property indicates that an Organization has a Researcher as member"@en ;
            rdfs:label "has member"@en .
 
 
@@ -140,10 +140,6 @@ xsd:date rdf:type rdfs:Datatype .
               <http://purl.org/vocab/vann/example> "University of Southern California"@en ;
               rdfs:comment "An organized body of people with a particular purpose, especially a business, society, association, etc."@en ;
               rdfs:label "Organization"@en .
-
-
-###  https://w3id.org/example#Person
-:Person rdf:type owl:Class .
 
 
 ###  https://w3id.org/example#Researcher

@@ -116,9 +116,6 @@
     "@value" : "Organization"
   } ]
 }, {
-  "@id" : "https://w3id.org/example#Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
-}, {
   "@id" : "https://w3id.org/example#Researcher",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/vocab/vann/example" : [ {
@@ -170,7 +167,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "This example property indicates that an Organization has a Person as member"
+    "@value" : "This example property indicates that an Organization has a Researcher as member"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/example#Organization"
@@ -180,7 +177,7 @@
     "@value" : "has member"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/example#Person"
+    "@id" : "https://w3id.org/example#Researcher"
   } ]
 }, {
   "@id" : "https://w3id.org/example#hasMentor",
