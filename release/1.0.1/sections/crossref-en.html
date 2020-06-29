@@ -38,7 +38,7 @@ This section provides details for each class and property defined by The example
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#partOf" title="https://w3id.org/example#partOf">mentored</a>
+            <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -66,12 +66,12 @@ This section provides details for each class and property defined by The example
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#partOf" title="https://w3id.org/example#partOf">mentored</a>
+            <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#partOf" title="https://w3id.org/example#partOf">mentored</a>
+            <a href="#hasMentor" title="https://w3id.org/example#hasMentor">has mentor</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -89,7 +89,7 @@ This section provides details for each class and property defined by The example
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#partOf" title="https://w3id.org/example#partOf">mentored</a>
+            <a href="#hasMentor" title="https://w3id.org/example#hasMentor">has mentor</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -101,7 +101,10 @@ This section provides details for each class and property defined by The example
          <a href="#hasMember" title="https://w3id.org/example#hasMember">has member</a>
       </li>
       <li>
-         <a href="#partOf" title="https://w3id.org/example#partOf">mentored</a>
+         <a href="#hasMentor" title="https://w3id.org/example#hasMentor">has mentor</a>
+      </li>
+      <li>
+         <a href="#partOf" title="https://w3id.org/example#partOf">part of</a>
       </li>
    </ul>
    <div class="entity" id="hasMember">
@@ -129,8 +132,33 @@ This section provides details for each class and property defined by The example
          </dl>
       </div>
    </div>
+   <div class="entity" id="hasMentor">
+      <h3>has mentor<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/example#hasMentor</p>
+      <div class="comment">
+         <span class="markdown">This property links the students to the researcher who mentored them</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Student" title="https://w3id.org/example#Student">Student</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Researcher" title="https://w3id.org/example#Researcher">Researcher</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="partOf">
-      <h3>mentored<sup class="type-op" title="object property">op</sup>
+      <h3>part of<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
@@ -146,17 +174,9 @@ This section provides details for each class and property defined by The example
                <a href="#Researcher" title="https://w3id.org/example#Researcher">Researcher</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
-            <dd>
-               <a href="#Student" title="https://w3id.org/example#Student">Student</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
             <dt>has range</dt>
             <dd>
                <a href="#Organization" title="https://w3id.org/example#Organization">Organization</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
-               <a href="#Researcher" title="https://w3id.org/example#Researcher">Researcher</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>

@@ -60,7 +60,7 @@
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@language" : "en",
-    "@value" : "February 4th, 2020"
+    "@value" : "February 5th, 2020"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
@@ -88,6 +88,9 @@
     "@value" : "An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property."
   } ],
   "http://www.w3.org/2002/07/owl#backwardCompatibleWith" : [ {
+    "@id" : "https://w3id.org/example/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
     "@id" : "https://w3id.org/example/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
@@ -180,30 +183,37 @@
     "@id" : "https://w3id.org/example#Person"
   } ]
 }, {
+  "@id" : "https://w3id.org/example#hasMentor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property links the students to the researcher who mentored them"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/example#Student"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has mentor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/example#Researcher"
+  } ]
+}, {
   "@id" : "https://w3id.org/example#partOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property links instances from Researcher to Organization"
-  }, {
-    "@language" : "en",
-    "@value" : "This property links the students to the researcher who mentored them"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://w3id.org/example#Researcher"
-  }, {
-    "@id" : "https://w3id.org/example#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "mentored"
-  }, {
     "@language" : "en",
     "@value" : "part of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/example#Organization"
-  }, {
-    "@id" : "https://w3id.org/example#Researcher"
   } ]
 } ]

@@ -16,7 +16,7 @@
         <dc:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</dc:abstract>
         <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:title xml:lang="en">The example ontology</dc:title>
-        <terms:created xml:lang="en">February 4th, 2020</terms:created>
+        <terms:created xml:lang="en">February 5th, 2020</terms:created>
         <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
         <terms:creator xml:lang="en">Maria Poveda-Villalon</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
@@ -25,6 +25,7 @@
         <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The example ontology 1.0.1.</schema:citation>
         <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property.</rdfs:comment>
         <owl:backwardCompatibleWith rdf:resource="https://w3id.org/example/1.0.0"/>
+        <owl:priorVersion rdf:resource="https://w3id.org/example/1.0.0"/>
         <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
     </owl:Ontology>
     
@@ -183,17 +184,25 @@
     
 
 
+    <!-- https://w3id.org/example#hasMentor -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/example#hasMentor">
+        <rdfs:domain rdf:resource="https://w3id.org/example#Student"/>
+        <rdfs:range rdf:resource="https://w3id.org/example#Researcher"/>
+        <rdfs:comment xml:lang="en">This property links the students to the researcher who mentored them</rdfs:comment>
+        <rdfs:label xml:lang="en">has mentor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/example#partOf -->
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/example#partOf">
         <rdfs:domain rdf:resource="https://w3id.org/example#Researcher"/>
-        <rdfs:domain rdf:resource="https://w3id.org/example#Student"/>
         <rdfs:range rdf:resource="https://w3id.org/example#Organization"/>
-        <rdfs:range rdf:resource="https://w3id.org/example#Researcher"/>
         <rdfs:comment xml:lang="en">This property links instances from Researcher to Organization</rdfs:comment>
-        <rdfs:comment xml:lang="en">This property links the students to the researcher who mentored them</rdfs:comment>
-        <rdfs:label xml:lang="en">mentored</rdfs:label>
         <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
     
