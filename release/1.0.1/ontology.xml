@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/">
     <owl:Ontology rdf:about="https://w3id.org/example">
         <owl:versionIRI rdf:resource="https://w3id.org/example/1.0.1"/>
-        <dc:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</dc:abstract>
+        <terms:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</dc:abstract>
         <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:title xml:lang="en">The example ontology</dc:title>
         <terms:created xml:lang="en">February 5th, 2020</terms:created>
