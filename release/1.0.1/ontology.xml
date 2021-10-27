@@ -13,7 +13,7 @@
      xmlns:schema="http://schema.org/">
     <owl:Ontology rdf:about="https://w3id.org/example">
         <owl:versionIRI rdf:resource="https://w3id.org/example/1.0.1"/>
-        <terms:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</dc:abstract>
+        <terms:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</terms:abstract>
         <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:title xml:lang="en">The example ontology</dc:title>
         <terms:created xml:lang="en">February 5th, 2020</terms:created>
@@ -28,10 +28,10 @@
         <owl:priorVersion rdf:resource="https://w3id.org/example/1.0.0"/>
         <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -40,108 +40,108 @@
      -->
 
 
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/abstract -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/created -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/created"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/publisher -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
-    
+
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/created -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/creator -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
-    
+
 
 
     <!-- http://purl.org/dc/terms/license -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
+
 
 
     <!-- http://purl.org/vocab/vann/example -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/example"/>
-    
+
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
-    
+
 
 
     <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
-    
+
 
 
     <!-- http://schema.org/author -->
 
 
     <owl:AnnotationProperty rdf:about="http://schema.org/author"/>
-    
+
 
 
     <!-- http://schema.org/citation -->
 
 
     <owl:AnnotationProperty rdf:about="http://schema.org/citation"/>
-    
+
 
 
     <!-- http://www.linkedmodel.org/schema/vaem#rationale -->
 
 
     <owl:AnnotationProperty rdf:about="http://www.linkedmodel.org/schema/vaem#rationale"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -150,17 +150,17 @@
      -->
 
 
-    
+
 
 
     <!-- http://www.w3.org/2001/XMLSchema#date -->
 
 
     <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -169,7 +169,7 @@
      -->
 
 
-    
+
 
 
     <!-- https://w3id.org/example#hasMember -->
@@ -181,7 +181,7 @@
         <rdfs:comment xml:lang="en">This example property indicates that an Organization has a Researcher as member</rdfs:comment>
         <rdfs:label xml:lang="en">has member</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://w3id.org/example#hasMentor -->
@@ -193,7 +193,7 @@
         <rdfs:comment xml:lang="en">This property links the students to the researcher who mentored them</rdfs:comment>
         <rdfs:label xml:lang="en">has mentor</rdfs:label>
     </owl:ObjectProperty>
-    
+
 
 
     <!-- https://w3id.org/example#partOf -->
@@ -205,10 +205,10 @@
         <rdfs:comment xml:lang="en">This property links instances from Researcher to Organization</rdfs:comment>
         <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -217,7 +217,7 @@
      -->
 
 
-    
+
 
 
     <!-- https://w3id.org/example#foundedIn -->
@@ -229,10 +229,10 @@
         <rdfs:comment xml:lang="en">Date when an organization was founded</rdfs:comment>
         <rdfs:label xml:lang="en">founded in</rdfs:label>
     </owl:DatatypeProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -241,7 +241,7 @@
      -->
 
 
-    
+
 
 
     <!-- https://w3id.org/example#Organization -->
@@ -252,7 +252,7 @@
         <rdfs:comment xml:lang="en">An organized body of people with a particular purpose, especially a business, society, association, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Organization</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://w3id.org/example#Researcher -->
@@ -264,7 +264,7 @@
         <rdfs:comment xml:lang="en">A definition of your class. For example, A researcher is a person who publishes scientific papers, writes research proposals and mentors students</rdfs:comment>
         <rdfs:label xml:lang="en">Researcher</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- https://w3id.org/example#Student -->
@@ -279,5 +279,3 @@
 
 
 <!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
-
-
