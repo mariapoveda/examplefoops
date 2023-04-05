@@ -101,7 +101,7 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
-    "@value" : "1.0.1"
+    "@value" : "1.0.2"
   } ]
 }, {
   "@id" : "https://w3id.org/def/example#Organization",
@@ -212,6 +212,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "part of"
+  }, {
+    "@language" : "es",
+    "@value" : "parte de"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/def/example#Organization"
