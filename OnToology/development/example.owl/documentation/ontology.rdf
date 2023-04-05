@@ -11,7 +11,23 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="https://w3id.org/def/example"/>
+    <owl:Ontology rdf:about="https://w3id.org/def/example">
+        <owl:versionIRI rdf:resource="https://w3id.org/def/example/1.0.1"/>
+        <dc:description xml:lang="en">This is an example ontology to illustrate some of the annotations that should be included</dc:description>
+        <dc:title xml:lang="en">The example ontology</dc:title>
+        <terms:abstract xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</terms:abstract>
+        <terms:created xml:lang="en">February 5th, 2020</terms:created>
+        <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
+        <terms:creator xml:lang="en">Maria Poveda-Villalon</terms:creator>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
+        <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/example</vann:preferredNamespaceUri>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The example ontology 1.0.1.</schema:citation>
+        <rdfs:comment xml:lang="en">An example vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property.</rdfs:comment>
+        <owl:backwardCompatibleWith rdf:resource="https://w3id.org/example/1.0.0"/>
+        <owl:priorVersion rdf:resource="https://w3id.org/example/1.0.0"/>
+        <owl:versionInfo xml:lang="en">1.0.1</owl:versionInfo>
+    </owl:Ontology>
     
 
 
@@ -59,6 +75,27 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
