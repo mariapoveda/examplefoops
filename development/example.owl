@@ -92,7 +92,7 @@
                   rdfs:domain :Researcher ;
                   rdfs:range :Organization ;
                   rdfs:comment "This property links instances from Researcher to Organization"@en ;
-                  rdfs:label "part of"@en .
+                  rdfs:label "part of"@en, "parte de"es .
                   
 ###  https://w3id.org/def/example#hasMentor
 :hasMentor rdf:type owl:ObjectProperty ;
