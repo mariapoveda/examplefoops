@@ -3,8 +3,11 @@
     "abstract" : {
       "@id" : "http://purl.org/dc/elements/1.1/abstract"
     },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
     "created" : {
-      "@id" : "http://purl.org/dc/elements/1.1/created"
+      "@id" : "http://purl.org/dc/terms/created"
     },
     "example" : {
       "@id" : "http://purl.org/vocab/vann/example"
@@ -17,6 +20,9 @@
     },
     "Organization" : {
       "@id" : "https://w3id.org/def/example#Organization"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
     },
     "hasMentor" : {
       "@id" : "https://w3id.org/def/example#hasMentor",
@@ -35,6 +41,9 @@
     "rationale" : {
       "@id" : "http://www.linkedmodel.org/schema/vaem#rationale"
     },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
     "hasMember" : {
       "@id" : "https://w3id.org/def/example#hasMember",
       "@type" : "@id"
@@ -42,6 +51,9 @@
     "partOf" : {
       "@id" : "https://w3id.org/def/example#partOf",
       "@type" : "@id"
+    },
+    "backwardCompatibleWith" : {
+      "@id" : "http://www.w3.org/2002/07/owl#backwardCompatibleWith"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
